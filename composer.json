@@ -1,0 +1,26 @@
+{
+    "name": "markpdd13/cleditor",
+    "description": "CLeditor Basic Example Yii2",
+    "license": "BSD-3-Clause",
+    "type": "yii2-extension",
+    "homepage": "https://github.com/MarekPadd13/cleditor-yii2",
+    "minimum-stability":"stable",
+    "require": {
+        "php": "^5.4"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Mark Paddubny",
+            "email": "marklash13@gmail.com",
+            "homepage": "https://github.com/MarekPadd13",
+            "role": "Developer"
+        }   
+    ],
+     "autoload": {
+        "psr-4": {"markpdd13\\cleditor\\": ""}
+    },
+    "require": {
+        "yiisoft/yii2": "*"
+    }
+}
