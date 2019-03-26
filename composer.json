@@ -3,7 +3,7 @@
     "description": "CLeditor Basic Example Yii2",
     "license": "BSD-3-Clause",
     "type": "yii2-extension",
-    "homepage": "https://github.com/MarekPadd13/cleditor-yii2",
+    "homepage": "https://github.com/MarekPadd13/yii2-CLEditor",
     "minimum-stability":"stable",
     "require": {
         "php": "^5.4"
