@@ -11,26 +11,27 @@ CLEditor является открытым исходным кодом jQuery п
 Либо запустить
 
 ```
-composer require --prefer-dist markpdd13/cleditor "*"
+composer require markpdd13/cleditor
 ```
 
 или добавить
 
 ```json
-"markpdd13/cleditor": "*"
+ "markpdd13/cleditor": "^1.0"
 ```
 
 в разделе `require` вашего composer.json файла.
 
 ## Использование
 
-```php
+```<?php
 use markpdd13\cleditor\Cleditor;
 
 //c ActiveForm
 
  <?= $form->field($model, 'body')->widget(Cleditor::className(), [ 
-                       'editorOptions' => ['width' => "700",  
+                       'editorOptions' => [
+                        'width' => "700",  
                         "controls"=> // controls to add to the toolbar
                         "bold italic underline strikethrough subscript superscript | font size "] ,
                     ])?>
